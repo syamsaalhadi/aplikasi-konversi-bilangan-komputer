@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Konversi Bilangan Komputer</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Konversi Bilangan Komputer</h2>
+  <label for="number">Masukkan Angka:</label>
+  <input type="text" id="number" placeholder="Masukkan angka...">
+  <label for="from">Dari:</label>
+  <select id="from">
+    <option value="biner">Biner</option>
+    <option value="oktal">Oktal</option>
+    <option value="desimal">Desimal</option>
+    <option value="heksadesimal">Heksadesimal</option>
+  </select>
+  <label for="to">Ke:</label>
+  <select id="to">
+    <option value="biner">Biner</option>
+    <option value="oktal">Oktal</option>
+    <option value="desimal">Desimal</option>
+    <option value="heksadesimal">Heksadesimal</option>
+  </select>
+  <button onclick="convert()">Konversi</button>
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
